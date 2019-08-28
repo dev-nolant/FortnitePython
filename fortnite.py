@@ -7,8 +7,8 @@ class MyClient(fortnitepy.Client):
 
     def __init__(self):
         super().__init__(
-            email='killer123yo@gmail.com',
-            password='Bingolucy1'
+            email='email', #PUT YOUR ACCOUNTS EMAIL
+            password='password' #PUT YOUR ACCOUNTS PASSWORD
         )
         self.session_event = asyncio.Event(loop=self.loop)
 
